@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://i.pinimg.com/originals/fe/e4/c6/fee4c620ea682072d3e5f8cb777110bb.jpg);
+    background-size: cover;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(240, 230, 235, .9);
+    width: 40vw;
+    min-height: 50vh;
+}
+header h1,
+header p {
+    margin: 10px;
+}
+.username, 
+.password {
+    margin: 10px;
+}
+input {
+    margin: 5px;
+    width: 15vw;
+}
+button {
+    margin: 20px;
+    width: 5vw;
+    height: 5vh;
+    border-radius: 5px;
+}
+button:hover {
+    cursor: pointer;
+    background: black;
+    color: white;
+}
