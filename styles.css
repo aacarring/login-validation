@@ -13,6 +13,7 @@ body {
     height: 100vh;
     background-image: url(https://i.pinimg.com/originals/fe/e4/c6/fee4c620ea682072d3e5f8cb777110bb.jpg);
     background-size: cover;
+    font-family: monospace;
 }
 .container {
     display: flex;
@@ -25,6 +26,7 @@ body {
     min-height: 50vh;
     max-height: 100vh;
     border-radius: 15px;
+    box-shadow: 3px 5px 15px grey;
 }
 header {
     margin-top: 30px;
@@ -33,9 +35,17 @@ header h1,
 header p {
     margin: 20px;
 }
+header p {
+    font-size: 1em;
+}
 .username, 
 .password {
     margin: 10px;
+}
+.username label,
+.password label {
+    font-family: serif;
+    font-size: 1em;
 }
 input {
     margin: 5px;
@@ -47,6 +57,7 @@ button {
     height: 5vh;
     border-radius: 5px;
     padding: 5px;
+    font-family: monospace;
 }
 button:hover {
     cursor: pointer;
@@ -67,4 +78,5 @@ span {
     font-size: .95em;
     margin: 10px;
     text-align: center;
+    font-family: serif;
 }
