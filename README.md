@@ -1,0 +1,1 @@
+A username and password validation project using HTML, CSS, and JS.
